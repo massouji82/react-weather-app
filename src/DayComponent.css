@@ -1,0 +1,30 @@
+.container {
+  margin-top: 4rem;
+}
+
+.inner-container {
+  border: solid 1px grey;
+  border-radius: 15%;
+  box-shadow: 8px 4px;
+  color: grey;
+}
+
+.container input,
+.container ::-webkit-input-placeholder {
+  color: white !important;
+}
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid tomato;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  font-style: italic;
+}
